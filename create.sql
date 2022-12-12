@@ -6,10 +6,10 @@ MATRICULA bigint
 );
 
 CREATE TABLE IF NOT EXISTS PACIENTES
-(ID bigint primary key,
+(ID int auto_increment primary key,
 NOMBRE varchar(255),
 APELLIDO varchar(255),
 DOMICILIO varchar(255),
-DNI bigint,
+DNI varchar(255),
 FECHADEALTA varchar(255)
 );

@@ -1,10 +1,25 @@
 package com.dentalclinicspring.appointmentbooking.controller;
 
-import org.springframework.stereotype.Controller;
+import com.dentalclinicspring.appointmentbooking.entity.Odontologo;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
-@Controller
+@RestController
+@RequestMapping("/odonto")
 public class OdontologoController {
 
-    public 
 
+    // GET MAPPING
+
+    // POST MAPPING
+
+    // PUT MAPPING
+
+    // DELETE MAPPING
+
+    /*@GetMapping("/obtener")
+    public Odontologo obtenerOdontologoHandler(){
+        Odontologo odontologo = odontologoService.obtenerOdontologo();
+        return odontologo;
+    }*/
 }

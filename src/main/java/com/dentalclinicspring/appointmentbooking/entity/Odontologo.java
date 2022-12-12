@@ -1,4 +1,4 @@
-package com.dentalclinicspring.appointmentbooking.model;
+package com.dentalclinicspring.appointmentbooking.entity;
 
 public class Odontologo {
     private Long id;

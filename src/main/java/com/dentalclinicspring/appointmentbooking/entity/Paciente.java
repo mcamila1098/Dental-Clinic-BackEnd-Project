@@ -1,14 +1,16 @@
-package com.dentalclinicspring.appointmentbooking.model;
+package com.dentalclinicspring.appointmentbooking.entity;
+
+import java.util.Date;
 
 public class Paciente {
-    private Long id;
+    private Integer id;
     private String nombre;
     private String apellido;
     private String domicilio;
-    private Long DNI;
+    private String DNI;
     private String fechaDeAlta;
 
-    public Paciente(Long id, String nombre, String apellido, String domicilio, Long DNI, String fechaDeAlta) {
+    public Paciente(Integer id, String nombre, String apellido, String domicilio, String DNI, String fechaDeAlta) {
         this.id = id;
         this.nombre = nombre;
         this.apellido = apellido;
@@ -17,11 +19,11 @@ public class Paciente {
         this.fechaDeAlta = fechaDeAlta;
     }
 
-    public Long getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
@@ -49,11 +51,11 @@ public class Paciente {
         this.domicilio = domicilio;
     }
 
-    public Long getDNI() {
+    public String getDNI() {
         return DNI;
     }
 
-    public void setDNI(Long DNI) {
+    public void setDNI(String DNI) {
         this.DNI = DNI;
     }
 
