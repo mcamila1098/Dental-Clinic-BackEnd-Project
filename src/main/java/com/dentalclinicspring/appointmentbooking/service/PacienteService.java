@@ -12,6 +12,7 @@ public class PacienteService {
     public PacienteService(IDaoPaciente<Paciente> pacienteIDao){this.pacienteIDao = pacienteIDao;}
 
     public Paciente agregarPaciente(Paciente p){return pacienteIDao.agregar(p);}
-    public void eliminarPaciente(Long id){pacienteIDao.eliminar(id);}
-    public Paciente listarPaciente(Long id){return pacienteIDao.listar(id);}
+    public void eliminarPaciente(Integer id){pacienteIDao.eliminar(id);}
+    public Paciente listarPaciente(Integer id){return pacienteIDao.listar(id);}
+    public Paciente modificarPaciente(Paciente p){return pacienteIDao.modificar(p);}
 }

@@ -1,16 +1,17 @@
-package com.dentalclinicspring.appointmentbooking.entity;
+package com.dentalclinicspring.appointmentbooking.dto;
 
-public class Odontologo {
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
+@JsonIgnoreProperties(ignoreUnknown = true)
+public class OdontologoDTO {
     private Integer id;
     private String nombre;
     private String apellido;
-    private Integer matricula;
 
-    public Odontologo(Integer id, String nombre, String apellido, Integer matricula) {
+    public OdontologoDTO(Integer id, String nombre, String apellido) {
         this.id = id;
         this.nombre = nombre;
         this.apellido = apellido;
-        this.matricula = matricula;
     }
 
     public Integer getId() {
@@ -36,13 +37,4 @@ public class Odontologo {
     public void setApellido(String apellido) {
         this.apellido = apellido;
     }
-
-    public Integer getMatricula() {
-        return matricula;
-    }
-
-    public void setMatricula(Integer matricula) {
-        this.matricula = matricula;
-    }
-
 }

@@ -3,7 +3,8 @@ package com.dentalclinicspring.appointmentbooking.dao;
 public interface IDaoPaciente<T> {
 
     public T agregar(T t);
-    public void eliminar(Long id);
-    public T listar(Long id);
+    public void eliminar(Integer id);
+    public T listar(Integer id);
+    public T modificar(T t);
 
 }

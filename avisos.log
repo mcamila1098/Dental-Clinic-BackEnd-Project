@@ -1,1 +1,13 @@
 [2022-12-12 00:56:40] [DEBUG] [PacienteDAOH2:44] Se agregó un paciente
+[2022-12-12 07:40:52] [DEBUG] [PacienteDAOH2:44] Se agregó un paciente
+[2022-12-12 07:41:50] [ERROR] [PacienteDAOH2:113] Error al listar un paciente
+[2022-12-12 07:46:01] [ERROR] [PacienteDAOH2:113] Error al listar un paciente
+[2022-12-12 07:50:50] [ERROR] [PacienteDAOH2:113] Error al listar un paciente
+[2022-12-12 08:11:15] [ERROR] [OdontologoDAOH2:47] Error al insertar un odontologo
+[2022-12-12 08:13:53] [ERROR] [OdontologoDAOH2:47] Error al insertar un odontologo
+[2022-12-12 08:20:43] [ERROR] [OdontologoDAOH2:48] Error al insertar un odontologo
+[2022-12-12 08:23:52] [DEBUG] [OdontologoDAOH2:31] Realiza la conexión
+[2022-12-12 08:23:52] [DEBUG] [OdontologoDAOH2:45] Se agregó un odontologo
+[2022-12-12 11:41:12] [ERROR] [PacienteDAOH2:113] Error al listar un paciente
+[2022-12-12 11:43:35] [DEBUG] [OdontologoDAOH2:44] Se agregó un odontologo
+[2022-12-12 11:50:10] [DEBUG] [OdontologoDAOH2:44] Se agregó un odontologo

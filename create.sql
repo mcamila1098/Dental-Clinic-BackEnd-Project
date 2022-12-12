@@ -1,8 +1,8 @@
 CREATE TABLE IF NOT EXISTS ODONTOLOGOS
-(ID bigint primary key,
+(ID int auto_increment primary key,
 NOMBRE varchar(255),
 APELLIDO varchar(255),
-MATRICULA bigint
+MATRICULA int
 );
 
 CREATE TABLE IF NOT EXISTS PACIENTES
